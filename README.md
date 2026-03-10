@@ -58,13 +58,6 @@ Features
 • automatic payment execution through Soroban contracts
 • transparent payment records on the Stellar ledger
 
-Example
-
-Employee: Sarah
-Salary: 2000 USDC
-Frequency: Monthly
-
-Once configured, the contract automatically executes payroll payments.
 
 ---
 
@@ -72,29 +65,6 @@ Once configured, the contract automatically executes payroll payments.
 
 SyncPay allows organizations to distribute profits among contributors based on predefined ownership percentages.
 
-Example structure
-
-| Member | Contribution |
-| ------ | ------------ |
-| Alice  | $5000        |
-| Bob    | $3000        |
-| Jane   | $2000        |
-
-Total investment: $10,000
-
-Ownership distribution
-
-Alice → 50%
-Bob → 30%
-Jane → 20%
-
-If the organization deposits $40,000 profit into the contract:
-
-Alice → $20,000
-Bob → $12,000
-Jane → $8,000
-
-The contract automatically distributes the funds according to the ownership structure.
 
 ---
 
@@ -109,14 +79,6 @@ Features
 • track ownership on-chain
 • distribute dividends automatically
 
-Example
-
-Total shares: 1000
-Price per share: $10
-
-Investor buys 50 shares → 5% ownership
-
-Whenever profits are deposited into the revenue pool contract, dividends are distributed automatically.
 
 ---
 
@@ -157,19 +119,6 @@ Stellar network.
 Smart Contracts
 Soroban smart contracts written in Rust.
 
-Data Indexing
-Horizon API.
-
----
-
-# MVP Scope
-
-The initial version of SyncPay focuses on two core primitives:
-
-• revenue sharing smart contracts
-• payroll automation
-
-Investment share functionality will be introduced in later iterations.
 
 ---
 
@@ -183,25 +132,6 @@ Organizations pay employees globally using Stellar-based payroll contracts.
 
 Investment Revenue Pools
 Investors receive automated dividend distributions based on share ownership.
-
----
-
-# Future Roadmap
-
-Phase 1
-Revenue sharing smart contract implementation.
-
-Phase 2
-Payroll automation system.
-
-Phase 3
-Investment share token system.
-
-Phase 4
-Dashboard analytics and reporting.
-
-Phase 5
-Developer API for integration with external platforms.
 
 ---
 
